@@ -1,6 +1,6 @@
 # ERA-SESSION13 YoloV3 with Pytorch Lightning & Gradio
 
-HF Link: https://huggingface.co/spaces/Navyabhat/Session13
+HF Link: https://huggingface.co/spaces/GunaKoppula/Session13
 
 ### Achieved:
 1. **Training Loss: 3.680** 
@@ -40,11 +40,11 @@ HF Link: https://huggingface.co/spaces/Navyabhat/Session13
     - Share notebook link (with logs) on GitHub
   
 ### Results
-![image](https://github.com/Navyabhat03/ERAV1-Session-13/blob/main/yolo_results.png)
+![image](https://github.com/GunaKoppula/ERAV1-Session-13/blob/main/yolo_results.png)
 
 ### Gradio App
-![image](https://github.com/Navyabhat03/ERAV1-Session-13/assets/60884505/259d9419-25ac-4ba5-8aa5-da3b64798fb1)
-![image](https://github.com/Navyabhat03/ERAV1-Session-13/assets/60884505/c47ff954-af14-465a-b3ff-163f6451bcb9)
+![image](https://github.com/GunaKoppula/ERAV1-Session-13/assets/61241928/5304d1e4-a545-4b8c-951c-10cc5da09e00)
+![image](https://github.com/GunaKoppula/ERAV1-Session-13/assets/61241928/8d558059-4477-4d54-a0c6-9f6bb424c77c)
 
 ### Model Summary
 ```python
@@ -414,11 +414,11 @@ HF Link: https://huggingface.co/spaces/Navyabhat/Session13
 ```
 
 ### LR Finder
-![image](https://github.com/Navyabhat03/ERAV1-Session-13/assets/60884505/e59778ac-4daa-4b3f-8755-199b8492c8bc)
+![image](https://github.com/GunaKoppula/ERAV1-Session-13/assets/61241928/7ffabc81-f1d3-4379-bbfb-6ba7da277a02)
 
 ### Loss & Accuracy
 **Training & Validation Loss:**
-![image](https://github.com/Navyabhat03/ERAV1-Session-13/assets/60884505/284d9650-d3a4-479c-9337-17bc29bc8877)
+![image](https://github.com/GunaKoppula/ERAV1-Session-13/assets/61241928/332fda1e-acfb-4aec-979f-93984bc43e2d)
 
 **Testing Accuracy:**
 ```python
@@ -511,14 +511,15 @@ Obj accuracy is: 75.976616%
 MAP: 0.43667954206466675
 ```
 ### Tensorboard Plots 
-**Training Loss vs Steps:** ![image](https://github.com/Navyabhat03/ERAV1-Session-13/assets/60884505/d897672a-d022-4620-9edc-80d3f0a8ae2e)
+**Training Loss vs Steps:** ![image](https://github.com/GunaKoppula/ERAV1-Session-13/assets/61241928/3b4fb334-5b2a-45b0-a892-5222c147160a)
 
 **Validation Loss vs Steps:** 
-(Info: Validation loss calculated every 10 epochs to save time, thats why the straight line) 
-![image](https://github.com/Navyabhat03/ERAV1-Session-13/assets/60884505/438c01e9-abc3-4bee-b443-195d896651be)
+(Info: Validation loss calculated every 10 epochs to save time, that's why the straight line) 
+![image](https://github.com/GunaKoppula/ERAV1-Session-13/assets/61241928/8b5f2b66-41d9-40bc-80f9-94589d5ffb59)
 
 ### GradCAM Representations
-EigenCAM is used to generate CAM representation, since usal gradient based method wont work with detection models like Yolo, FRCNN etc.
-![image](https://github.com/Navyabhat03/ERAV1-Session-13/assets/60884505/e058dd8a-3147-4ab2-bf8c-b1581cc0c4ab)
+EigenCAM is used to generate CAM representation, since the usual gradient-based method won't work with detection models like Yolo, FRCNN, etc.
+![image](https://github.com/GunaKoppula/ERAV1-Session-13/assets/61241928/0f679781-fe30-41f8-9625-8fa312ae7f38)
+
 
 
